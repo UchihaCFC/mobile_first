@@ -1,0 +1,104 @@
+/*Estilos para sitio Resposive SVG de prueba 
+Autor: @UchihaCFC
+Preprocesador utilizado : Stylus
+*/
+
+a
+	color #222
+	text-decoration none
+
+a:hover
+	color #b2d830
+
+body
+	background:url('../img/geometry.png') repeat
+	color:#333;
+	font-family "Open Sans", Arial
+	text-align:left;
+	font-size:16px;
+
+header
+	background:#222;
+	border-bottom:3px solid #b2d830
+	color:#DDD;
+	margin:0;
+	padding:1em;
+	position:fixed;
+	width:100%;
+	
+	#titulo_nav
+		width 70%
+
+		nav a
+			color white
+			border-left 1px solid #b2d830
+			border-right 1px solid #b2d830
+			border-bottom 4px solid #b2d830
+			font-size 0.8em
+			padding 0.1em 1em
+			text-decoration none
+
+		nav a:hover
+			border-color white
+
+	h1
+		font-size 40px
+		font-weight normal
+		margin 0
+		padding 0
+
+
+	#logo img
+		height 80px
+		width 80px
+
+	#titulo_web
+		padding 0.5em
+		width 70%
+
+	#logo,#titulo_nav
+		display inline-block
+		vertical-align top
+
+#contenido
+	background-color: #FFFFFF;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CCCCCC), to(#FFFFFF), color-stop(.5,#CCCCCC));
+	background: -moz-linear-gradient(top, #CCCCCC 0%, #CCCCCC 50%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(top, #CCCCCC 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #CCCCCC 0%, #FFFFFF 100%);
+	-moz-box-shadow: 0 0 19px -3px #000;
+	-webkit-box-shadow: 0 0 19px -3px #000;
+	box-shadow: 0 0 19px -3px #000;
+	border 1px solid #666
+	padding 4em 0.5em
+	margin auto
+	/*width 950px*/
+
+	#columna_grande
+		background white
+		margin 4em 0 0.5em 0
+		overflow hidden
+		padding 0.5em
+			
+
+	#columna_pequena
+		background orange
+		padding 1em
+		
+
+		figure 
+			float left
+
+		img 
+			height 40px
+			width 40px
+			padding 0.5em
+
+
+	#columna_grande,#columna_pequena
+		border-radius 0.5em
+footer
+	background #222
+	color #FFF
+	padding 2em
+@import "responsive.styl"

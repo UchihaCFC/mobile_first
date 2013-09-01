@@ -1,0 +1,23 @@
+a{color:#222;text-decoration:none}
+a:hover{color:#b2d830}
+body{background:url("../img/geometry.png") repeat;color:#333;font-family:"Open Sans",Arial;text-align:left;font-size:16px}
+header{background:#222;border-bottom:3px solid #b2d830;color:#ddd;margin:0;padding:1em;position:fixed;width:100%;}
+header #titulo_nav{width:70%;}
+header #titulo_nav nav a{color:#fff;border-left:1px solid #b2d830;border-right:1px solid #b2d830;border-bottom:4px solid #b2d830;font-size:.8em;padding:.1em 1em;text-decoration:none}
+header #titulo_nav nav a:hover{border-color:#fff}
+header h1{font-size:40px;font-weight:normal;margin:0;padding:0}
+header #logo img{height:80px;width:80px}
+header #titulo_web{padding:.5em;width:70%}
+header #logo,header #titulo_nav{display:inline-block;vertical-align:top}
+#contenido{background-color:#fff;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#ffffff');background:-webkit-gradient(linear,0% 0%,0% 100%,from(#ccc),to(#fff),color-stop(.5,#ccc));background:-moz-linear-gradient(top,#ccc 0%,#ccc 50%,#fff 100%);background-image:-ms-linear-gradient(top,#ccc 0%,#fff 100%);background-image:linear-gradient(to bottom,#ccc 0%,#fff 100%);-moz-box-shadow:0 0 19px -3px #000;-webkit-box-shadow:0 0 19px -3px #000;box-shadow:0 0 19px -3px #000;border:1px solid #666;padding:4em .5em;margin:auto;}
+#contenido #columna_grande{background:#fff;margin:4em 0 .5em 0;overflow:hidden;padding:.5em}
+#contenido #columna_pequena{background:#ffa500;padding:1em;}
+#contenido #columna_pequena figure{float:left}
+#contenido #columna_pequena img{height:40px;width:40px;padding:.5em}
+#contenido #columna_grande,#contenido #columna_pequena{border-radius:.5em}
+footer{background:#222;color:#fff;padding:2em}
+@media screen and (min-width:768px){#contenido{margin-bottom:2%;width:950px}
+#columna_grande{width:60%}
+#columna_pequena{width:30%}
+#columna_grande,#columna_pequena{display:inline-block;vertical-align:top;margin-top:6.7%;margin-left:3%}
+}footer article{margin:auto;width:950px}
