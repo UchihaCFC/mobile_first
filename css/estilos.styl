@@ -11,11 +11,11 @@ a:hover
 	color #b2d830
 
 body
-	background:url('../img/geometry.png') repeat
+	background:url('../img/grey_wash_wall.png') repeat
 	color:#333;
 	font-family "Open Sans", Arial
-	text-align:left;
 	font-size:16px;
+	height 100%
 
 header
 	background:#222;
@@ -60,6 +60,27 @@ header
 		display inline-block
 		vertical-align top
 
+.ancho-sitio
+	width 90%
+	max-width 950px
+
+.wrap
+	display block
+	-moz-box-sizing border-box
+	-webkit-box-sizing border-box
+	-ms-box-sizing: border-box
+	box-sizing border-box
+
+	
+.clear
+	*zoom 1
+.clear:before,.clear:after
+	display table
+	line-height 0
+.clear:after 
+	clear both
+
+
 #contenido
 	background-color: #FFFFFF;
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CCCCCC), to(#FFFFFF), color-stop(.5,#CCCCCC));
@@ -70,20 +91,46 @@ header
 	-webkit-box-shadow: 0 0 19px -3px #000;
 	box-shadow: 0 0 19px -3px #000;
 	border 1px solid #666
-	padding 4em 0.5em
-	margin auto
+	overflow hidden
+	/*padding 4em 0.5em*/
+	margin 0 auto
 	/*width 950px*/
 
+.columna
+	display block
+	float left
+	padding-left 25px
+
+.columnas
+	margin-left -25px	
+
+	.columna_1
+		width 60%
+
+	.columna_2
+		width 40%
+
+		img 
+			vertical-align middle
+			width 100%
+
+	
+.pacman 
+	min-height 270px
+
+p
+	margin 10px 0
+
 	#columna_grande
-		background white
+		/*background white
 		margin 4em 0 0.5em 0
 		overflow hidden
-		padding 0.5em
+		padding 0.5em*/
 			
 
 	#columna_pequena
 		background orange
-		padding 1em
+		/*padding 1em*/
 		
 
 		figure 
@@ -101,4 +148,7 @@ footer
 	background #222
 	color #FFF
 	padding 2em
+
+
 @import "responsive.styl"
+
