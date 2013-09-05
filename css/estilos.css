@@ -17,9 +17,7 @@ header #logo,header #titulo_nav{display:inline-block;vertical-align:top}
 #contenido{background-color:#fff;background:-webkit-gradient(linear,0% 0%,0% 100%,from(#ccc),to(#fff),color-stop(.5,#ccc));background:-moz-linear-gradient(top,#ccc 0%,#ccc 50%,#fff 100%);background-image:-ms-linear-gradient(top,#ccc 0%,#fff 100%);background-image:linear-gradient(to bottom,#ccc 0%,#fff 100%);-moz-box-shadow:0 0 19px -3px #000;-webkit-box-shadow:0 0 19px -3px #000;box-shadow:0 0 19px -3px #000;border:1px solid #666;overflow:hidden;margin:0 auto;}
 .columna{display:block;float:left;padding-left:25px}
 .columnas{margin-left:-25px;}
-.columnas .columna_1{width:60%}
-.columnas .columna_2{width:40%;}
-.columnas .columna_2 img{vertical-align:middle;width:100%}
+.columnas img{vertical-align:middle;width:100%}
 .pacman{min-height:270px}
 p{margin:10px 0;}
 p #columna_pequena{background:#ffa500;}
@@ -27,5 +25,6 @@ p #columna_pequena figure{float:left}
 p #columna_pequena img{height:40px;width:40px;padding:.5em}
 p #columna_grande,p #columna_pequena{border-radius:.5em}
 footer{background:#222;color:#fff;padding:2em}
-@media screen and (max-width : 600px){.columna_1,.columna_2{float:none;width:100%}
+@media screen and (min-width:600px){.columna_1{width:60%}
+.columna_2{width:40%}
 }
